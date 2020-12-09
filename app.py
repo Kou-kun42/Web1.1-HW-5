@@ -3,6 +3,7 @@ from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
 from pymongo import MongoClient
 from dotenv import load_dotenv
+import os
 
 ############################################################
 # SETUP
